@@ -1,0 +1,254 @@
+header {
+    background-color: rgba(0, 0, 0, 0.678);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    padding: 20px;
+}
+
+nav>ul {
+    list-style-type: none;
+    text-align: right;
+    width: 100%;
+    padding: 5px;
+}
+
+li {
+    display: inline-block;
+    margin-inline: 4px;
+}
+
+li a {
+    color: rgba(98, 243, 248, 0.863);
+    ;
+    text-decoration: none;
+}
+
+li a:hover,
+li a:focus {
+    text-decoration: underline;
+}
+
+h1 {
+    width: fit-content;
+    background-color: rgba(98, 243, 248, 0.863);
+    padding: 8px;
+    font-size: 24px;
+
+
+
+}
+
+.container {
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.container p {
+    font-size: 1.25em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container h2 {
+    border-right: black solid;
+    flex: 0 0 20%;
+    font-size: 200%;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.container-content {
+    height: fit-content;
+    display: flex;
+    padding: 5px;
+}
+
+.title-wrap {
+    width: 24.5%;
+    display: flex;
+    justify-content: right;
+    border-right: black solid;
+    font-size: 34px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.content-wrap {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: inherit;
+
+}
+
+#card1 {
+    width: 94%;
+    height: 20em;
+    padding: .5em;
+    margin: 15px;
+    border: black solid;
+    border-radius: 5px;
+    background-image: url(./water-drops.jpeg);
+    background-size: cover;
+
+}
+
+div #card1 a {
+    color: rgba(36, 80, 119, 0.96);
+    background-color: rgb(211 211 211 / 45%);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+}
+
+#card2 {
+    width: 45%;
+    border: black solid;
+    height: 5em;
+    margin: 0.3em;
+    border-radius: 5px;
+    background-image: url(./green-lava.jpeg);
+    background-size: cover;
+}
+
+div #card2 a {
+    color: rgba(36, 80, 119, 0.96);
+    background-color: rgb(211 211 211 / 45%);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    margin-top: 5px;
+}
+
+
+#card3 {
+    width: 45%;
+    border: black solid;
+    height: 5em;
+    margin: 0.3em;
+    border-radius: 5px;
+    background-image: url(./sand-aqua.jpeg);
+    background-size: cover;
+}
+
+div #card3 a {
+    color: rgba(36, 80, 119, 0.96);
+    background-color: rgb(211 211 211 / 45%);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    margin-top: 5px;
+}
+
+#card4 {
+    width: 45%;
+    border: black solid;
+    height: 5em;
+    margin: 0.3em;
+    border-radius: 5px;
+    background-image: url(./water.jpg);
+    background-size: cover;
+}
+
+div #card4 a {
+    color: rgba(36, 80, 119, 0.96);
+    background-color: rgb(211 211 211 / 45%);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    margin-top: 5px;
+}
+
+#card5 {
+    width: 45%;
+    border: black solid;
+    height: 5em;
+    margin: 0.3em;
+    border-radius: 5px;
+    background-image: url(././crystal.jfif);
+    background-size: cover;
+}
+
+div #card5 a {
+    color: rgba(36, 80, 119, 0.96);
+    background-color: rgb(211 211 211 / 45%);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    margin-top: 5px;
+}
+
+
+
+footer ul {
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+
+footer a {
+    color: black;
+}
+
+.container div,
+.container ul {
+    flex: 0 0 70%
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container h2 {
+        text-align: left;
+        border-right: black none 3px;
+    }
+
+    .container-content {
+        flex-direction: column;
+
+    }
+
+    .title-wrap {
+        flex-direction: column;
+        border-right: black none 3px;
+        float: left;
+    }
+
+    .content-wrap {
+        flex-direction: column;
+    }
+
+    footer ul {
+        flex-direction: column;
+        float: left;
+    }
+
+}
+
+.contact-info li {
+    justify-content: space-around;
+}
