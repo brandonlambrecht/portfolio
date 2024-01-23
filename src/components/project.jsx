@@ -1,42 +1,44 @@
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
 export default function ProjectPage() {
-    return (
-    
-    <section className="container-content">
+  const pawFit = "https://github.com/brandonlambrecht/paw-fit";
+  const localList = "https://github.com/brandonlambrecht/the-local-list";
+  const socialNetwork = "https://github.com/brandonlambrecht/social-network";
+  const readmeGen = "https://github.com/brandonlambrecht/readme-generator";
+  const textEditor = "https://github.com/brandonlambrecht/pwa-text-editor";
 
-    <div className="title-wrap">
+  return (
+    <section className="container-content">
+      <div className="title-wrap">
         <h2 id="work">Projects</h2>
-    </div>
-    <div className="content-wrap">
+      </div>
+      <div className="content-wrap">
         <div id="card1">
-            <Link to="https://github.com/brandonlambrecht/weather-dashboard">PawFit</Link>
+          <Link to={pawFit}>PawFit</Link>
         </div>
         <div id="card2">
-                    <div>
-                        <Link to="https://github.com/brandonlambrecht/work-day-scheduler>Workday Scheduler">The Local List</Link>
-                    </div>
-                </div>
+          <div>
+            <Link to={localList}>The Local List</Link>
+          </div>
+        </div>
         <div id="card3">
-                    <div>
-                        <Link to="https://github.com/brandonlambrecht/work-day-scheduler>Workday Scheduler">README Generator</Link>
-                    </div>
-                </div>
+          <div>
+            <Link to={readmeGen}>README Generator</Link>
+          </div>
+        </div>
 
         <div id="card4">
-                    <div>
-                        <Link to="https://github.com/brandonlambrecht/work-day-scheduler>Workday Scheduler">Social Network</Link>
-                    </div>
-                </div>
+          <div>
+            <Link to={socialNetwork}>Social Network</Link>
+          </div>
+        </div>
 
         <div id="card5">
-                    <div>
-                        <Link to="https://github.com/brandonlambrecht/work-day-scheduler>Workday Scheduler">Text Editor</Link>
-                    </div>
-                </div>
-
-        
-    </div>
+          <div>
+            <Link to={textEditor}>Text Editor</Link>
+          </div>
+        </div>
+      </div>
     </section>
-)
+  );
 }

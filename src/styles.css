@@ -6,38 +6,34 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: 15px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
 }
 
-nav>ul {
-    list-style-type: none;
-    text-align: right;
-    width: 100%;
-    padding: 5px;
+p {
+    padding-left: 1.5em;
 }
 
-li {
-    display: inline-block;
-    margin-inline: 4px;
-}
-
-li a {
-    color: rgba(98, 243, 248, 0.863);
-    ;
+a{
+    padding: 10px;
     text-decoration: none;
+    font-size: 24px;
+    color: white;
 }
 
-li a:hover,
-li a:focus {
+
+a:hover,
+a:focus {
     text-decoration: underline;
 }
 
+
 h1 {
     width: fit-content;
-    background-color: rgba(98, 243, 248, 0.863);
+    /* background-color: rgba(98, 243, 248, 0.863); */
     padding: 8px;
-    font-size: 24px;
+    font-size: 36px;
+    color: white;
 
 
 
@@ -95,7 +91,8 @@ h1 {
     margin: 15px;
     border: black solid;
     border-radius: 5px;
-    background-image: url(./water-drops.jpeg);
+    opacity: .5;
+    background-image: url(./images/pawfit4.jpg);
     background-size: cover;
 
 }
@@ -117,7 +114,8 @@ div #card1 a {
     height: 5em;
     margin: 0.3em;
     border-radius: 5px;
-    background-image: url(./green-lava.jpeg);
+    opacity: .5;
+    background-image: url(./images/locallist.jpg);
     background-size: cover;
 }
 
@@ -140,7 +138,8 @@ div #card2 a {
     height: 5em;
     margin: 0.3em;
     border-radius: 5px;
-    background-image: url(./sand-aqua.jpeg);
+    opacity: .5;
+    background-image: url(./images/readme.jpeg);
     background-size: cover;
 }
 
@@ -162,7 +161,8 @@ div #card3 a {
     height: 5em;
     margin: 0.3em;
     border-radius: 5px;
-    background-image: url(./water.jpg);
+    opacity: .5;
+    background-image: url(./images/socialnetwork.jpg);
     background-size: cover;
 }
 
@@ -184,7 +184,8 @@ div #card4 a {
     height: 5em;
     margin: 0.3em;
     border-radius: 5px;
-    background-image: url(././crystal.jfif);
+    opacity: .5;
+    background-image: url(./images/texteditor2.jpg);
     background-size: cover;
 }
 
@@ -214,7 +215,7 @@ footer a {
     color: black;
 }
 
-.container div,
+.container div
 .container ul {
     flex: 0 0 70%
 }
@@ -254,3 +255,66 @@ footer a {
 .contact-info li {
     justify-content: space-around;
 }
+
+
+
+html, body {
+  background: #f1f1f1;
+  font-family: 'Merriweather', sans-serif;
+  padding: 1em;
+}
+
+h1 {
+   text-align: center;
+   color: #a8a8a8;
+   @include text-shadow(1px 1px 0 rgba(white, 1));
+}
+
+form {
+   max-width: 600px;
+   text-align: center;
+   margin: 20px auto;
+}
+
+  input, textarea {
+     border:0; outline:0;
+     padding: 1em;
+     @include border-radius(8px);
+     display: block;
+     width: 100%;
+     margin-top: 1em;
+     font-family: 'Merriweather', sans-serif;
+     @include box-shadow(0 1px 1px rgba(black, 0.1));
+     resize: none;
+    
+    &:focus {
+       @include box-shadow(0 0px 2px rgba($red, 1)!important);
+    }
+  }
+  
+  #input-submit {
+     color: white; 
+     cursor: pointer;
+  }
+
+    &:hover {
+       @include box-shadow(0 1px 1px 1px rgba(#aaa, 0.6)); 
+    }
+  
+  
+  textarea {
+      height: 126px;
+  }
+
+
+
+
+@media (max-width: 480px) {
+  .half {
+     width: 100%; 
+     float: none;
+     margin-bottom: 0; 
+  }
+}
+
+

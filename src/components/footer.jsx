@@ -1,16 +1,18 @@
-import {Link} from "react-router-dom"
-
 export default function Footer() {
-    return (
+  return (
     <footer>
-    <section className ="container">
+      <section className="container">
         <nav>
-            <ul>
-           <Link to="/">Github</Link>
-           <Link to="/">LinkedIn</Link>
-           </ul>
+          <ul>
+            <a href="google.com">
+              <i class="fa-brands fa-square-github fa-3x"></i>
+            </a>
+            <a href="google.com">
+              <i class="fa-brands fa-linkedin fa-3x"></i>
+            </a>
+          </ul>
         </nav>
-    </section>
+      </section>
     </footer>
-    )
+  );
 }
