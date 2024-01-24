@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function ProjectPage() {
+export default function PortfolioPage() {
   const pawFit = "https://github.com/brandonlambrecht/paw-fit";
   const localList = "https://github.com/brandonlambrecht/the-local-list";
   const socialNetwork = "https://github.com/brandonlambrecht/social-network";
@@ -10,32 +10,45 @@ export default function ProjectPage() {
   return (
     <section className="container-content">
       <div className="title-wrap">
-        <h2 id="work">Projects</h2>
+        <h2 id="work">Portfolio</h2>
       </div>
       <div className="content-wrap">
         <div id="card1">
-          <Link to={pawFit}>PawFit</Link>
+          <a href={pawFit} target="_blank">
+            Pawfit
+          </a>
         </div>
         <div id="card2">
           <div>
-            <Link to={localList}>The Local List</Link>
+            <a href={localList} target="_blank">
+              Local List
+              <p>
+                <span>Restful API</span>
+              </p>
+            </a>
           </div>
         </div>
         <div id="card3">
           <div>
-            <Link to={readmeGen}>README Generator</Link>
+            <a href={socialNetwork} target="_blank">
+              Social Network
+            </a>
           </div>
         </div>
 
         <div id="card4">
           <div>
-            <Link to={socialNetwork}>Social Network</Link>
+            <a href={readmeGen} target="_blank">
+              README Generator
+            </a>
           </div>
         </div>
 
         <div id="card5">
           <div>
-            <Link to={textEditor}>Text Editor</Link>
+            <a href={textEditor} target="_blank">
+              Text Editor
+            </a>
           </div>
         </div>
       </div>
