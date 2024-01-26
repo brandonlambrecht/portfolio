@@ -1,9 +1,8 @@
 {
     "aboutPage":{
         "title": "About Me",
-        "paragraph": "Hello, my name is Brandon Lambrecht and I am very excited you are here visiting my personal portfolio. A little about me, I was born and raised in Montana, where I received a Bachelors of Science in Marketing at Montana State University. Since then I have moved around the country but have found my current home to be in Nashville, TN. During my career I have established myself as a relationship oriented leader with 6 years experience in account management within finance, retail, and health/wellness industries. Skilled in building trustworthy relationships and identifying areas of opportunity for continuous business growth. Strong skill set in managing creative teams and leading strategy to enable organization-wide success. Most recently I have undergone a career change into web development which has lead into an intensive full-stack bootcamp through Vanderbilt University. Please browse through each repository and let me know if you have any further questions. My email is linked below, thank you!",
-        "skills": [
-            
-        ]
+        "paragraph": "Hello, my name is Brandon Lambrecht and I am very excited you are here visiting my personal portfolio. A little about me, I was born and raised in Montana, where I received a Bachelors of Science in Marketing at Montana State University. Since then I have moved around the country but have found my current home to be in Nashville, TN",
+        "paragraph2": "During my career I have established myself as a relationship oriented leader with 6 years experience in account management within finance, retail, and health/wellness industries. Skilled in building trustworthy relationships and identifying areas of opportunity for continuous business growth. Strong skill set in managing creative teams and leading strategy to enable organization-wide success.",
+        "paragraph3":"Most recently I have undergone a career change into web development which has lead into an intensive full-stack bootcamp through Vanderbilt University. Please browse through each repository and let me know if you have any further questions. My email is linked below, thank you!"
     }
 }

@@ -1,6 +1,6 @@
 
 
-header {
+/* header {
     background-color: #52796f ;
     display: flex;
     flex-wrap: wrap;
@@ -8,7 +8,7 @@ header {
     align-items: center;
     margin: 10px;
     padding: 10px;
-}
+} */
 
 p {
     padding-left: 1.5em;
@@ -25,7 +25,7 @@ a{
     padding: 10px;
     text-decoration: none;
     font-size: 24px;
-    color: #cad2c5;
+    color: #e6e9e3;
 }
 
 
@@ -40,9 +40,6 @@ h1 {
     padding: 8px;
     font-size: 36px;
     color: #cad2c5;
-
-
-
 }
 
 .container {
@@ -55,6 +52,7 @@ h1 {
 .container p {
     font-size: 1.25em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1em;
 }
 
 .container h2 {
@@ -277,6 +275,7 @@ footer a {
     }
 
     .container h2 {
+        padding-left: 1.5em;
         text-align: left;
         border-right: black none 3px;
     }
