@@ -22,9 +22,6 @@ export default function PortfolioPage() {
           <div>
             <a href={localList} target="_blank">
               Local List
-              <p>
-                <span>Restful API</span>
-              </p>
             </a>
           </div>
         </div>
