@@ -9,14 +9,14 @@ Technologies Used:
 - React
 - React Router Dom
 - React Bootstrap
-- Netflify
+- Netlify
 - Vite
 
 ![portfolio-walkthrough](./public/images/walkthrough.gif)
 
 ## Deployment
 
-Follow the link to deploy the application on Netlify [portfolio]()!
+Follow the link to deploy the application on Netlify [deployment link](https://brandon-lambrecht-portfolio.netlify.app)
 
 Follow link for GitHub repository [portfolio](https://github.com/brandonlambrecht/portfolio)
 

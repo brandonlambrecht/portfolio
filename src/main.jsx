@@ -2,13 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./styles.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./components/home.jsx";
 import PortfolioPage from "./components/portfolio.jsx";
 import ContactPage from "./components/contact.jsx";
 import ResumePage from "./components/resume.jsx";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App />,
@@ -19,15 +19,15 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: "/portfolio",
+        path: "portfolio",
         element: <PortfolioPage />,
       },
       {
-        path: "/contact",
+        path: "contact",
         element: <ContactPage />,
       },
       {
-        path: "/resume",
+        path: "resume",
         element: <ResumePage />,
       },
     ],

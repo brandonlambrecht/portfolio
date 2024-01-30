@@ -17,6 +17,13 @@ export default function PortfolioPage() {
           <a href={pawFit} target="_blank">
             Pawfit
           </a>
+          <a
+            className="link-opacity-50-hover logo"
+            href="https://github.com/brandonlambrecht?tab=repositories"
+            target="_blank"
+          >
+            <i class="fa-brands fa-square-github fa-3x"></i>
+          </a>
         </div>
         <div id="card2">
           <div>
