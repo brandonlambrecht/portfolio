@@ -98,7 +98,7 @@ h1:hover a{
     border: black solid;
     border-radius: 5px;
     opacity: .5;
-    background-image: url(./images/pawfit4.jpg);
+    background-image: url(/images/pawfit4.jpg);
     background-size: cover;
 
 }
@@ -130,7 +130,7 @@ div #card1 a {
     margin: 10px;
     border-radius: 5px;
     opacity: .5;
-    background-image: url(./images/locallist.jpg);
+    background-image: url(/images/locallist.jpg);
     background-size: cover;
 }
 
@@ -163,7 +163,7 @@ div #card2 a {
     margin: 10px;
     border-radius: 5px;
     opacity: .5;
-    background-image: url(./images/abstract-cloud.jpg);
+    background-image: url(/images/abstract-cloud.jpg);
     background-size: cover;
 }
 
@@ -195,7 +195,7 @@ div #card3 a {
     margin: 10px;
     border-radius: 5px;
     opacity: .5;
-    background-image: url(./images/socialnetwork.jpg);
+    background-image: url(/images/socialnetwork.jpg);
     background-size: cover;
 }
 
