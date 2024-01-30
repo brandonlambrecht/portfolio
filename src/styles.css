@@ -10,9 +10,6 @@ p {
     
 }
 
-.logo{
-
-}
 
 a{
     font-weight: bold;
@@ -22,6 +19,13 @@ a{
     color: #e6e9e3;
 }
 
+.nav-bar {
+    background-color: #264653;
+}
+
+-text nav{
+    color: white!important;
+}
 
 a:hover,
 a:focus {
@@ -32,17 +36,16 @@ a:focus {
     text-decoration: underline;
 }
 
-
-h1 {
-    width: fit-content;
-    padding: 8px;
-    font-size: 36px;
-    color: #cad2c5;
+.title-text {
+    font-family: 'Agbalumo', system-ui;
+    font-family: 'Rubik Glitch Pop', system-ui;
 }
 
-h1:hover a{
+.title-text:hover{
     text-decoration: none;
+    
 }
+
 
 .container {
     display: flex;
@@ -90,7 +93,7 @@ h1:hover a{
 
 }
 
-#card1 {
+.portfolio-card {
     width: 91%;
     height: 20em;
     padding: 10px;
@@ -103,9 +106,9 @@ h1:hover a{
 
 }
 
-div #card1 a {
+.portfolio-card a {
     color:black;
-    background-color: #cad2c5;
+    /* background-color: #cad2c5; */
     text-decoration: none;
     display: none;
     border-radius: 5px;
@@ -115,14 +118,20 @@ div #card1 a {
     float: left;
 }
 
-#card1:hover{
+.portfolio-card:hover{
     opacity: 1;
 }
-#card1:hover a {
+.portfolio-card:hover a {
     display: block;
 }
 
-#card2 {
+#git-logo{
+    padding: 10px;
+    background-color: white;
+}
+
+
+.portfolio-card2{
     width: 42%;
     border: black solid;
     height: 10em;
@@ -130,127 +139,46 @@ div #card1 a {
     margin: 10px;
     border-radius: 5px;
     opacity: .5;
+    background-size: cover;
+}
+
+.portfolio-card2 a {
+    color: white;
+    /* background-color: #cad2c5; */
+    text-decoration: none;
+    border-radius: 5px;
+    display: none;
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    margin-top: 5px;
+}
+
+.portfolio-card2:hover{
+    opacity: 1;
+}
+.portfolio-card2:hover a {
+    display: block;
+}
+
+#card-image-2 {
     background-image: url(/images/locallist.jpg);
     background-size: cover;
 }
-
-div #card2 a {
-    color: black;
-    background-color: #cad2c5;
-    text-decoration: none;
-    border-radius: 5px;
-    display: none;
-    padding: 10px;
-    font-size: 1.5em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    float: left;
-    margin-top: 5px;
-}
-
-#card2:hover{
-    opacity: 1;
-}
-#card2:hover a {
-    display: block;
-}
-
-
-#card3 {
-    width: 42%;
-    border: black solid;
-    padding: 10px;
-    height: 10em;
-    margin: 10px;
-    border-radius: 5px;
-    opacity: .5;
+#card-image-3 {
     background-image: url(/images/abstract-cloud.jpg);
     background-size: cover;
 }
-
-div #card3 a {
-    color: black;
-    background-color: #cad2c5;
-    text-decoration: none;
-    border-radius: 5px;
-    display: none;
-    padding: 10px;
-    font-size: 1.5em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    float: left;
-    margin-top: 5px;
-}
-#card3:hover{
-    opacity: 1;
-}
-#card3:hover a {
-    display: block;
-}
-
-
-#card4 {
-    width: 42%;
-    border: black solid;
-    height: 10em;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    opacity: .5;
+#card-image-4 {
     background-image: url(/images/socialnetwork.jpg);
     background-size: cover;
 }
-
-div #card4 a {
-    color: black;
-    background-color: #cad2c5;
-    text-decoration: none;
-    border-radius: 5px;
-    padding: 10px;
-    display: none;
-    font-size: 1.5em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    float: left;
-    margin-top: 5px;
-}
-
-#card4:hover{
-    opacity: 1;
-}
-#card4:hover a {
-    display: block;
-}
-
-
-#card5 {
-    width: 42%;
-    border: black solid;
-    height: 10em;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    opacity: .5;
-    background-image: url(./images/texteditor2.jpg);
+#card-image-5 {
+    background-image: url(/images/texteditor2.jpg);
     background-size: cover;
 }
 
-div #card5 a {
-    color: black;
-    background-color: #cad2c5;
-    text-decoration: none;
-    border-radius: 5px;
-    padding: 10px;
-    display: none;
-    font-size: 1.5em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    float: left;
-    margin-top: 5px;
-}
-
-#card5:hover{
-    opacity: 1;
-}
-#card5:hover a {
-    display: block;
-}
 
 
 
@@ -294,27 +222,16 @@ footer a:hover{
         flex-direction: column;
     }
     
-    #card1 {
+    .portfolio-card {
         height: 10em;
         width: 91%;
         margin: 10px;
     }
 
-    #card2 {
+    .portfolio-card2 {
         width: 91%;
     }
 
-    #card3 {
-        width: 91%;
-    }
-
-    #card4 {
-        width: 91%;
-    }
-
-    #card5 {
-        width: 91%;
-    }
 
     .title-wrap {
         flex-direction: column;

@@ -13,26 +13,26 @@ export default function PortfolioPage() {
         <h2 id="work">Portfolio</h2>
       </div>
       <div className="content-wrap">
-        <div id="card1">
+        <div className="portfolio-card" id="card-image-1">
           <a href={pawFit} target="_blank">
             Pawfit
           </a>
           <a
-            className="link-opacity-50-hover logo"
+            // className="link-opacity-50-hover logo"
             href="https://github.com/brandonlambrecht?tab=repositories"
             target="_blank"
           >
-            <i class="fa-brands fa-square-github fa-3x"></i>
+            <i id="git-logo" class="fa-brands fa-square-github fa-1x"></i>
           </a>
         </div>
-        <div id="card2">
+        <div className="portfolio-card2" id="card-image-2">
           <div>
             <a href={localList} target="_blank">
               Local List
             </a>
           </div>
         </div>
-        <div id="card3">
+        <div className="portfolio-card2" id="card-image-3">
           <div>
             <a href={socialNetwork} target="_blank">
               Social Network
@@ -40,7 +40,7 @@ export default function PortfolioPage() {
           </div>
         </div>
 
-        <div id="card4">
+        <div className="portfolio-card2" id="card-image-4">
           <div>
             <a href={readmeGen} target="_blank">
               README Generator
@@ -48,7 +48,7 @@ export default function PortfolioPage() {
           </div>
         </div>
 
-        <div id="card5">
+        <div className="portfolio-card2" id="card-image-5">
           <div>
             <a href={textEditor} target="_blank">
               Text Editor

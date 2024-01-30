@@ -5,15 +5,15 @@ export default function NavBar() {
     <Navbar
       collapseOnSelect
       expand="lg"
-      className="p-3 text-primary-emphasis bg-success-subtle border border-dark-subtle rounded-3"
+      className="p-3 text-primary-emphasis border  nav-bar"
     >
       <Container>
-        <Navbar.Brand className="fs-2 text-start" href="/">
+        <Navbar.Brand className="fs-2 text-start title-text" href="/">
           <h1>Brandon Lambrecht</h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="justify-content-end">
+          <Nav className="justify-content-end nav-text">
             <Nav.Link href="/#">Home</Nav.Link>
             <Nav.Link href="/#portfolio">Portfolio</Nav.Link>
             <Nav.Link href="/#contact">Contact</Nav.Link>
