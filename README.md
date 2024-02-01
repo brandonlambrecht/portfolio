@@ -9,14 +9,14 @@ Technologies Used:
 - React
 - React Router Dom
 - React Bootstrap
-- Netlify
+- Render
 - Vite
 
 ![portfolio-walkthrough](./public/images/walkthrough.gif)
 
 ## Deployment
 
-Follow the link to deploy the application on Netlify [deployment link](https://brandon-lambrecht-portfolio.netlify.app)
+Follow the link to deploy the application on Netlify [deployment link](https://lambrecht-portfolio.onrender.com)
 
 Follow link for GitHub repository [portfolio](https://github.com/brandonlambrecht/portfolio)
 
@@ -45,7 +45,7 @@ Run the server at localhost:3000 by using command:
 
     - npm run dev
 
-The application is ran on Netlify, a cloud based platform for running static, backend API's, databases and much more.
+The application is ran on Render, a cloud based platform for running static, backend API's, databases and much more.
 
 ## Contribution
 

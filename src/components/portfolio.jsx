@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 export default function PortfolioPage() {
   const pawFit = "https://github.com/brandonlambrecht/paw-fit";
   const localList = "https://github.com/brandonlambrecht/the-local-list";
@@ -14,21 +12,26 @@ export default function PortfolioPage() {
       </div>
       <div className="content-wrap">
         <div className="portfolio-card" id="card-image-1">
-          <a href={pawFit} target="_blank">
-            Pawfit
-          </a>
           <a
-            // className="link-opacity-50-hover logo"
-            href="https://github.com/brandonlambrecht?tab=repositories"
+            href="https://thawing-bastion-63318-3c68bfecd820.herokuapp.com/"
             target="_blank"
           >
-            <i id="git-logo" class="fa-brands fa-square-github fa-1x"></i>
+            Pawfit
+          </a>
+          <a href={pawFit} target="_blank">
+            <i id="git-logo" class="fa-brands fa-github fa-1.8x"></i>
           </a>
         </div>
         <div className="portfolio-card2" id="card-image-2">
           <div>
-            <a href={localList} target="_blank">
+            <a
+              href="https://rpmcquigg.github.io/Vandy-Project-01/"
+              target="_blank"
+            >
               Local List
+            </a>
+            <a href={localList} target="_blank">
+              <i id="git-logo" class="fa-brands fa-github fa-1.8x"></i>
             </a>
           </div>
         </div>
@@ -36,6 +39,12 @@ export default function PortfolioPage() {
           <div>
             <a href={socialNetwork} target="_blank">
               Social Network
+            </a>
+            <a
+              href="https://github.com/brandonlambrecht?tab=repositories"
+              target="_blank"
+            >
+              <i id="git-logo" class="fa-brands fa-github fa-1.8x"></i>
             </a>
           </div>
         </div>
@@ -45,13 +54,22 @@ export default function PortfolioPage() {
             <a href={readmeGen} target="_blank">
               README Generator
             </a>
+            <a
+              href="https://github.com/brandonlambrecht?tab=repositories"
+              target="_blank"
+            >
+              <i id="git-logo" class="fa-brands fa-github fa-1.8x"></i>
+            </a>
           </div>
         </div>
 
         <div className="portfolio-card2" id="card-image-5">
           <div>
-            <a href={textEditor} target="_blank">
+            <a href="https://pwa-text-editor-lqji.onrender.com" target="_blank">
               Text Editor
+            </a>
+            <a href={textEditor} target="_blank">
+              <i id="git-logo" class="fa-brands fa-github fa-1.8x"></i>
             </a>
           </div>
         </div>

@@ -3,9 +3,8 @@ export default function Footer() {
     <footer>
       <section className="container">
         <nav>
-          <ul>
+          <ul id="footer-logo">
             <a
-              className="link-opacity-50-hover"
               href="https://github.com/brandonlambrecht?tab=repositories"
               target="_blank"
             >
